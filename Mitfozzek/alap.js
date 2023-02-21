@@ -1,6 +1,6 @@
 let prevIndex = -1
 
-function RandomFood() {
+function RandomKaja() {
     let name = document.getElementById("name")
     let picture = document.getElementById("picture")
     let cal = document.getElementById("cal")
@@ -24,43 +24,44 @@ function RandomFood() {
 
 foodJson = {
     0: {
-        "name": "Olaszos brokkolileves",
-        "img": "pic/olaszos-brokkolileves.webp",
-        "time": 30,
-        "cal": 559,
-        "source": "https://www.nosalty.hu/recept/olaszos-brokkolileves"
+        "name": "Gyors Amerikai Palacsinta",
+        "img": "pic/gyors-amerikai-palacsinta.webp",
+        "time": 7,
+        "cal": 323,
+        "source": "https://www.nosalty.hu/recept/gyors-amerikai-palacsinta"
     },
 
     1: {
-        "name": "Gombás borjútokány",
-        "img": "pic/gombas-borju-tokany.webp",
+        "name": "Frankfurti leves",
+        "img": "pic/frankfurti-leves.webp",
         "time": 50,
-        "cal": 359,
-        "source": "https://www.nosalty.hu/recept/gombas-borju-tokany"
+        "cal": 165,
+        "source": "https://www.nosalty.hu/recept/frankfurti-leves-egyszeruen"
     },
 
     2: {
+        "name": "A Brassói",
+        "img": "pic/brassoi.webp",
+        "time": 120,
+        "cal": 852,
+        "source": "https://www.nosalty.hu/recept/a-brassoi"
+    },
+
+    3: {
+        "name": "Csöröge fánk",
+        "img": "pic/csorogefank.webp",
+        "time": 45,
+        "cal": 831,
+        "source": "https://www.nosalty.hu/recept/nagymama-csorogefankja"
+    },
+
+    4: {
+        
         "name": "Fűszeres sütőtökkrémleves",
         "img": "pic/fuszeres-sutotokkremleves.webp",
         "time": 30,
         "cal": 249,
         "source": "https://www.nosalty.hu/recept/fuszeres-sutotokkremleves"
-    },
-
-    3: {
-        "name": "Zöldborsós pörkölt rizzsel",
-        "img": "pic/zoldborsos-porkolt-rizzsel.webp",
-        "time": 100,
-        "cal": 521,
-        "source": "https://www.nosalty.hu/recept/zoldborsos-porkolt-rizzsel"
-    },
-
-    4: {
-        "name": "A Brassói",
-        "img": "pic/a-brassoi.webp",
-        "time": 120,
-        "cal": 852,
-        "source": "https://www.nosalty.hu/recept/a-brassoi"
     },
 
     5: {
@@ -72,19 +73,19 @@ foodJson = {
     },
 
     6: {
-        "name": "Dirty Rice, avagy a piszkos rizs",
-        "img": "pic/dirty-rice-piszkos-rizs-amerikai-rizsetel.webp",
+        "name": "Dirty Rice",
+        "img": "pic/dirty-rice.webp",
         "time": 95,
         "cal": 485,
         "source": "https://www.nosalty.hu/recept/dirty-rice-piszkos-rizs-amerikai-rizsetel"
     },
 
     7: {
-        "name": "A legtunkolósabb sertéspörkölt",
-        "img": "pic/sertesporkolt-porkolt-magyar-konyha.webp",
-        "time": 105,
-        "cal": 525,
-        "source": "https://www.nosalty.hu/recept/sertesporkolt-porkolt-magyar-konyha"
+        "name": "Csirkefalatkák joghurtos bundában",
+        "img": "pic/csirkefalatkak-joghurtos-bundaban.webp",
+        "time": 35,
+        "cal": 485,
+        "source": "https://www.nosalty.hu/recept/csirkefalatkak-joghurtos-bundaban"
     },
 
     8: {
