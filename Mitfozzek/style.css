@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
-
-.middle {
-    position: absolute;
+.kozep {
+    position:absolute;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -9,42 +7,38 @@
 }
 
 body {
-    font-family: 'Mynerve', cursive;
-    background-color: beige;
-}
-
-span {
-    font-size: 12pt;
+    font-family: 'Impact';
+    background-color: snow;
 }
 
 img {
     transition-duration: .2s;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-bottom: 20px;
+    box-shadow: black 0px 5px 15px;
+    margin-bottom: 30px;
+    
 }
 
 button {
     transition-duration: .1s;
     border: none;
     padding: 10px;
-    background-color: bisque;
+    background-color: grey;
     border-radius: 10px;
 }
 
 button:hover {
-    transform: rotate(3deg);
-}
-
-button:active {
-    transform: scale(.9);
+    transform: rotate(10deg);
 }
 
 img:hover {
-    transform: scale(1.02);
     border: 4px solid white;
 }
 
 img:active {
     transform: scale(.98);
+}
+
+span {
+    font-size: 12pt;
 }
