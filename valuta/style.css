@@ -1,0 +1,14 @@
+body
+{
+    text-align: center;
+    background-color: bisque;
+    
+}
+h1,select,label
+{
+    margin: 10px;
+}
+h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
