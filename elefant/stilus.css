@@ -1,0 +1,35 @@
+.noveny {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.692);
+    text-transform: capitalize;
+}
+
+.noveny-kep {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.megnagyitott-kep {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 99, 99, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.megnagyitott-kep img {
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    border-radius: 100px;
+    margin: 0 auto;
+}
