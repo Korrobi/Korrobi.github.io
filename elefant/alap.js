@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 div.classList.add("col-sm-4", "noveny");
                 div.innerHTML = `
                     <h2>${noveny.name}</h2>
+                    <br>
                     <img src="${noveny.imageUrl}" alt="${noveny.name}" class="noveny-kep">
                 `;
 
